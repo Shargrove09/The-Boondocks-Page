@@ -1,0 +1,174 @@
+.header {
+  text-align: left;
+  color: white;
+  background-color: #010101;
+  padding-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  flex-direction: column;
+  background-color: #010101;
+}
+
+.headerLogo {
+  font-size: 24px;
+  font: ewert;
+  font-color: #f9faf8;
+  display: inline-block;
+  padding: 16px;
+}
+
+.headerLink {
+  padding: 4px;
+}
+
+.header-right {
+  float: right;
+  font-size: 18px;
+  font-color: #f9faf8;
+  display: inline-block;
+  padding: 16px;
+}
+
+.bodyHeader {
+  display: flex;
+  background-color: #010101;
+}
+
+.bodyHeader-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  width: 60%;
+  align-items: center;
+}
+
+.bodyHeader-right {
+  margin: auto;
+}
+
+.bodyHeader-text {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.bodyHeader-subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+.bodyInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyInformation-title {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.bodyModal {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+  background-color: #010101;
+}
+
+.bodyModalDiv {
+  background-color: #010101;
+}
+
+.bodyQuote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.bodyQuote-author {
+  margin-left: auto;
+  padding-right: 64px;
+}
+
+.bodyQuote-text {
+  padding-left: 72px;
+  padding-right: 72px;
+  font-size: 36px;
+  color: #1f2937;
+  margin-bottom: 0;
+}
+
+.contentImage {
+  margin-left: auto;
+  padding-right: 16px;
+  margin-bottom: 24px;
+}
+
+.footer {
+  background: #010101;
+  display: flex;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.informationBox {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.informationBoxDiv {
+  display: flex;
+  flex-direction: row;
+  align-itmes: center;
+}
+
+.informationBoxImage {
+  height: 150px;
+  width: 150px;
+}
+
+.informationBoxText {
+  margin: 8px;
+  text-align: center;
+  color: #e5e7eb;
+}
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
