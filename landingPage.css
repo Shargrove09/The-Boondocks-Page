@@ -1,7 +1,7 @@
 .header {
   text-align: left;
   color: white;
-  background-color: #010101;
+  background-color: #333333;
   padding-bottom: 32px;
 }
 
@@ -15,7 +15,7 @@ body {
   flex: 1;
   margin: 0;
   flex-direction: column;
-  background-color: #010101;
+  background-color: #1b1b1b;
 }
 
 .headerLogo {
@@ -40,7 +40,9 @@ body {
 
 .bodyHeader {
   display: flex;
-  background-color: #010101;
+  background-color: #333333;
+
+  padding: 80px;
 }
 
 .bodyHeader-left {
@@ -70,22 +72,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .bodyInformation-title {
   font-size: 36px;
   font-weight: bolder;
+  color: white;
 }
 
 .bodyModal {
   display: flex;
   justify-content: center;
   margin: 24px;
-  background-color: #010101;
+  background-color: #333333;
 }
 
 .bodyModalDiv {
-  background-color: #010101;
+  background-color: #333333;
 }
 
 .bodyQuote {
@@ -93,30 +97,34 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e5e7eb;
+  background-color: white;
 }
 
 .bodyQuote-author {
+  color: black;
   margin-left: auto;
-  padding-right: 64px;
+  padding-right: 200px;
+  font-size: 18px;
 }
 
 .bodyQuote-text {
-  padding-left: 72px;
-  padding-right: 72px;
+  padding-left: 144px;
+  padding-right: 144px;
   font-size: 36px;
-  color: #1f2937;
+  color: black;
   margin-bottom: 0;
 }
 
 .contentImage {
   margin-left: auto;
-  padding-right: 16px;
+  padding-top: 8px;
   margin-bottom: 24px;
+  padding-left: 24px;
 }
 
 .footer {
-  background: #010101;
+  background-color: #333333;
+  // background: #1b1b1b;
   display: flex;
   width: 100%;
   height: 2.5rem;
@@ -125,10 +133,10 @@ body {
 }
 
 .icon {
-  color: royalblue;
+  color: #333333;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: white;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -146,10 +154,18 @@ body {
   margin: 8px;
 }
 
+.informationBox:hover {
+  transform: translateY(-3%);
+}
+
 .informationBoxDiv {
   display: flex;
   flex-direction: row;
   align-itmes: center;
+}
+
+.informationBox:hover + .informationBoxText {
+  transform: scale(1.5);
 }
 
 .informationBoxImage {
@@ -164,11 +180,15 @@ body {
 }
 
 .modal {
-  background: white;
+  background: #333333;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
   display: flex;
   gap: 16px;
   padding: 16px;
+}
+
+.modalText {
+  padding-bottom: 8px;
 }
