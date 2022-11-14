@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="landingPage.css" />
+    <title>The Boondocks Landing Page</title>
+    <link rel="shortcut icon" href="./resources/huey_favicon2.png" />
   </head>
   <body>
     <div class="header">
-      <a href="./index.html" class="headerLogo">
+      <a href="./index.html" class="headerLogo" target="_blank">
         <img
           src="./resources/The_Boondocks_Header.png"
           width="220px"
@@ -15,16 +17,19 @@
         <a
           class="headerLink"
           href="https://en.wikipedia.org/wiki/The_Boondocks_(season_1)"
+          target="_blank"
           >Season One</a
         >
         <a
           class="headerLink"
           href="https://en.wikipedia.org/wiki/The_Boondocks_(season_2)"
+          target="_blank"
           >Season Two</a
         >
         <a
           class="headerLink"
           href="https://en.wikipedia.org/wiki/The_Boondocks_(season_3)"
+          target="_blank"
           >Season Three</a
         >
       </div>
@@ -59,8 +64,8 @@
     </div>
     <div class="bodyInformation">
       <div class="bodyInformation-title">Characters</div>
-      <div class="informationBoxDiv">
-        <div>
+      <div class="informationBoxRow">
+        <div class="informationBoxDiv">
           <div class="informationBox">
             <img
               src="./resources/Huey_Freeman.webp"
@@ -70,7 +75,7 @@
           </div>
           <p class="informationBoxText">Huey Freeman</p>
         </div>
-        <div class="informationBoxRow">
+        <div class="informationBoxDiv">
           <div class="informationBox">
             <img
               src="./resources/Riley_Freeman.webp"
@@ -80,7 +85,7 @@
           </div>
           <p class="informationBoxText">Riley Freeman</p>
         </div>
-        <div>
+        <div class="informationBoxDiv">
           <div class="informationBox">
             <img
               src="./resources/robert_freeman.jpeg"
@@ -90,7 +95,7 @@
           </div>
           <p class="informationBoxText">Robert Freeman</p>
         </div>
-        <div>
+        <div class="informationBoxDiv">
           <div class="informationBox">
             <img
               class="informationBoxImage"
@@ -117,17 +122,32 @@
         <div class="modal">
           <div class="icon">!</div>
           <div class="container">
-            <div class="header">
-              Want to watch the Boondocks?
-              <div class="close-button">✖</div>
-            </div>
+            <div class="modalHeader">Want to watch the Boondocks?</div>
             <div class="modalText">
               The Boondocks is available for streaming currently on: HBO Max,
-              Hulu and Sling TV. Also you might be able to "find" some episodes
-              on youtube (*wink* *wink*)
+              and Sling TV. Also you might be able to "find" some episodes on
+              YouTube (*wink* *wink*)
             </div>
-            <button class="continue">Hulu</button>
-            <button class="cancel">HBO Max</button>
+            <div class="modalButtons">
+              <button class="modalButton">
+                <a
+                  class="modalLink"
+                  href="https://www.hbomax.com/series/urn:hbo:series:GXrMEtQ8sromBSgEAAAK1"
+                  target="_blank"
+                >
+                  HBO Max
+                </a>
+              </button>
+              <button class="modalButton">
+                <a
+                  class="modalLink"
+                  href="https://www.sling.com/shows/the-boondocks"
+                  target="_blank"
+                >
+                  Sling TV
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
