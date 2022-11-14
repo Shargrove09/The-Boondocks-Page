@@ -161,7 +161,7 @@ body {
 .informationBoxDiv {
   display: flex;
   flex-direction: row;
-  align-itmes: center;
+  align-items: center;
 }
 
 .informationBox:hover + .informationBoxText {
